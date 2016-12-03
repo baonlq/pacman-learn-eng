@@ -17,6 +17,10 @@
 		BBD80B301DF321E100782EB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBD80B2E1DF321E100782EB1 /* LaunchScreen.storyboard */; };
 		BBD80B3B1DF321E200782EB1 /* PacmanLearnEnglishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD80B3A1DF321E200782EB1 /* PacmanLearnEnglishTests.swift */; };
 		BBD80B461DF321E200782EB1 /* PacmanLearnEnglishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD80B451DF321E200782EB1 /* PacmanLearnEnglishUITests.swift */; };
+		BBD80B581DF3221C00782EB1 /* squareWall.png in Resources */ = {isa = PBXBuildFile; fileRef = BBD80B541DF3221C00782EB1 /* squareWall.png */; };
+		BBD80B591DF3221C00782EB1 /* exit.png in Resources */ = {isa = PBXBuildFile; fileRef = BBD80B551DF3221C00782EB1 /* exit.png */; };
+		BBD80B5A1DF3221C00782EB1 /* ghost.png in Resources */ = {isa = PBXBuildFile; fileRef = BBD80B561DF3221C00782EB1 /* ghost.png */; };
+		BBD80B5B1DF3221C00782EB1 /* pacman.png in Resources */ = {isa = PBXBuildFile; fileRef = BBD80B571DF3221C00782EB1 /* pacman.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		BBD80B411DF321E200782EB1 /* PacmanLearnEnglishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PacmanLearnEnglishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD80B451DF321E200782EB1 /* PacmanLearnEnglishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacmanLearnEnglishUITests.swift; sourceTree = "<group>"; };
 		BBD80B471DF321E200782EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBD80B541DF3221C00782EB1 /* squareWall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squareWall.png; sourceTree = "<group>"; };
+		BBD80B551DF3221C00782EB1 /* exit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exit.png; sourceTree = "<group>"; };
+		BBD80B561DF3221C00782EB1 /* ghost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost.png; sourceTree = "<group>"; };
+		BBD80B571DF3221C00782EB1 /* pacman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pacman.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,7 @@
 		BBD80B131DF321E100782EB1 = {
 			isa = PBXGroup;
 			children = (
+				BBD80B531DF3220300782EB1 /* SupportFiles */,
 				BBD80B1E1DF321E100782EB1 /* PacmanLearnEnglish */,
 				BBD80B391DF321E200782EB1 /* PacmanLearnEnglishTests */,
 				BBD80B441DF321E200782EB1 /* PacmanLearnEnglishUITests */,
@@ -132,6 +141,17 @@
 				BBD80B471DF321E200782EB1 /* Info.plist */,
 			);
 			path = PacmanLearnEnglishUITests;
+			sourceTree = "<group>";
+		};
+		BBD80B531DF3220300782EB1 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BBD80B541DF3221C00782EB1 /* squareWall.png */,
+				BBD80B551DF3221C00782EB1 /* exit.png */,
+				BBD80B561DF3221C00782EB1 /* ghost.png */,
+				BBD80B571DF3221C00782EB1 /* pacman.png */,
+			);
+			name = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,11 +261,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBD80B581DF3221C00782EB1 /* squareWall.png in Resources */,
+				BBD80B5A1DF3221C00782EB1 /* ghost.png in Resources */,
 				BBD80B2B1DF321E100782EB1 /* Main.storyboard in Resources */,
 				BBD80B221DF321E100782EB1 /* GameScene.sks in Resources */,
 				BBD80B2D1DF321E100782EB1 /* Assets.xcassets in Resources */,
 				BBD80B301DF321E100782EB1 /* LaunchScreen.storyboard in Resources */,
+				BBD80B591DF3221C00782EB1 /* exit.png in Resources */,
 				BBD80B241DF321E100782EB1 /* Actions.sks in Resources */,
+				BBD80B5B1DF3221C00782EB1 /* pacman.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
